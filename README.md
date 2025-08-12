@@ -41,8 +41,7 @@ Dataset berisi informasi unit apartemen di Daegu, termasuk:
 - Faktor terpenting: luas bangunan, jarak ke stasiun subway, dan tahun pembangunan.
 
 ## 6. Recommendation
-- Fokus pada apartemen luas dekat transportasi publik.
-- Gunakan desain hallway terraced untuk nilai jual lebih tinggi.
-- Gunakan model Gradient Boosting untuk prediksi harga.
-- Update model secara berkala.
-- Segmentasi pasar berdasarkan lokasi & tipe hallway.
+- Analisis Error – identifikasi 5% prediksi dengan error terbesar untuk menemukan pola dan melakukan feature engineering tambahan.
+- Penambahan Fitur Relevan – seperti kondisi interior, kualitas bangunan, pemandangan, kedekatan pusat komersial, data demografi, dan tren harga wilayah.
+- Eksperimen Model Lanjutan – uji LightGBM, CatBoost, stacking, atau deep learning jika dataset lebih besar.
+- Perbarui model secara berkala dengan data terbaru untuk menjaga akurasi.
